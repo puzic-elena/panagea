@@ -1,0 +1,21 @@
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 768px) {
+
+    .hero_section .wrapper h1 {
+        font-size: 46px;
+    }
+
+    .hero_section .wrapper h1 span {
+        font-size: 32px;
+    }
+
+    .main_title h2 {
+        font-size: 32px;
+        margin: 25px 0 0 0;
+    }
+
+    .main_title p {
+        font-size: 18px;
+    }
+
+}

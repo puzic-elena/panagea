@@ -1,0 +1,239 @@
+@import "normalize.css";
+@import "tablet-767.css";
+@import "PC-1400.css";
+/* General */
+
+body {
+    background: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Helvetica, sans-serif;
+    color: #555;
+}
+
+a {
+    color: #fc5b62;
+    text-decoration: none;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+a:hover, a:focus {
+    color: #111;
+    text-decoration: none;
+    outline: none;
+}
+
+.button {
+    border: none;
+    color: #fff;
+    background: #fc5b62;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.button.outline {
+    color: #fff !important;
+    border: 2px solid #fff;
+    color: #fc5b62;
+    padding: 13px 23px;
+    background: none;
+}
+
+.button.rounded {
+    -webkit-border-radius: 25px !important;
+    -moz-border-radius: 25px !important;
+    -ms-border-radius: 25px !important;
+    border-radius: 25px !important;
+    padding: 12px 30px;
+}
+
+.button:hover {
+    background-color: #FFC107;
+    color: #222 !important;
+}
+
+.button.outline:hover{
+    border-color: #FFC107;
+}
+
+.main_title {
+    text-align: center;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.main_title span {
+    width: 120px;
+    height: 2px;
+    background-color: #e1e1e1;
+    display: block;
+    margin: auto;
+}
+
+.main_title p {
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.main_title span i {
+    width: 60px;
+    height: 2px;
+    background-color: #fc5b62;
+    display: block;
+    margin: auto;
+}
+
+.portfolio_button {
+    text-align: right;
+}
+
+/* Header */
+
+header {
+    padding: 15px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+/* Main Top Hero Image */
+
+.hero_section.top {
+    height: 620px;
+    background: #222 url(../assets/hero_demo.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero_section {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+}
+
+.hero_section .wrapper {
+    background-color: #000;
+    background-color: rgba(0,0,0,0.6);
+    padding: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.hero_section .wrapper h1 {
+    color: #fff;
+    margin: 0 0 45px 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.hero_section .wrapper h1 span {
+    display: block;
+    font-weight: 300;
+    text-transform: none;
+}
+
+/* Demo Section */
+
+.demo_section {
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+.demo-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.demo-item a {
+    -webkit-box-shadow: 2px 0px 50px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 0px 50px rgba(0,0,0,0.15);
+    box-shadow: 2px 0px 50px rgba(0,0,0,0.15);
+    display: block;
+    max-height: 420px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.demo-item h3 {
+    font-size: 18px;
+}
+
+/* Demo Section */
+
+.carousel-section {
+    background-color: #f8f8f8;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.carousel-section img {
+    width: 100%;
+}
+
+.carousel_dots {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel_dots .dot {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.carousel_dots .dot span {
+    width: 13px;
+    height: 13px;
+    margin: 5px;
+    background: #D6D6D6;
+    display: block;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+}
+
+.carousel_dots .dot:hover span, .carousel_dots .dot:first-child span {
+    background: #fc5b62 !important;
+}
+
+/* Footer Section */
+
+.footer_wrapper {
+    padding-top: 30px;
+    padding-bottom: 5px;
+}

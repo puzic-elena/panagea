@@ -1,0 +1,25 @@
+/* Small devices (tablets, 767px and up) */
+@media (max-width: 767px) {
+
+    .hero_section .wrapper h1 {
+        font-size: 24px;
+    }
+
+    .hero_section .wrapper h1 span {
+        font-size: 21px;
+    }
+
+    .main_title h2 {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .main_title p {
+        font-size: 18px;
+    }
+
+    .portfolio_button {
+        text-align: center!important;
+    }
+
+}
